@@ -1,8 +1,7 @@
 import dotenv from "dotenv";
 import connectDb from "./db/dbConnection.js";
 import { app } from "./app.js";
-import cookieParser from 'cookie-parser';
-export {cookieParser}; 
+
 
 dotenv.config({
     path:'./.env'
